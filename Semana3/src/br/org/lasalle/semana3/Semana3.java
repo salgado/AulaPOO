@@ -12,13 +12,13 @@ public class Semana3 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Entre com a matricula:");
-		aluno.setMatricula(input.next());
+		aluno.setMatricula(input.nextLine());
 		
 		System.out.println("Entre com o nome:");
-		aluno.setNome(input.next());
+		aluno.setNome(input.nextLine());
 		
 		System.out.println("Entre com o curso:");
-		aluno.setCurso( input.next() );
+		aluno.setCurso( input.nextLine() );
 		
 		System.out.println("Entre com a disciplina 1:");
 		Disciplina disciplina = new Disciplina();
