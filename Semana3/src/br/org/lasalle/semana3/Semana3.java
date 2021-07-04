@@ -23,7 +23,7 @@ public class Semana3 {
 		System.out.println("Entre com a disciplina 1:");
 		Disciplina disciplina = new Disciplina();
 		
-		disciplina.setDescricao(input.next());
+		disciplina.setDescricao(input.nextLine());
 		disciplina.setTurno("noite");
 		
 		aluno.disciplinas.add(disciplina);
